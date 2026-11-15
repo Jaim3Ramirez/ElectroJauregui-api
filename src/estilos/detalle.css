@@ -1,0 +1,35 @@
+.detail-section { padding-top: 37px; padding-bottom: 48px; }
+.detail-section .breadcrumb { margin-bottom: 20px; color: #64748b; font-size: 11px; }
+.detail-layout { grid-template-columns: minmax(0, 1.08fr) minmax(0, .92fr); align-items: start; gap: clamp(32px, 5vw, 66px); }
+.detail-visual { position: relative; min-height: 490px; padding: 28px; border: 1px solid #e4e9f0; border-radius: 9px; background: #fff; box-shadow: 0 8px 26px #102a4309; }
+.detail-visual::before, .detail-visual::after { display: none; }
+.detail-visual img { width: 100%; height: 430px; max-height: 430px; object-fit: contain; mix-blend-mode: multiply; }
+.detail-stock { position: absolute; z-index: 1; top: 16px; left: 16px; padding: 7px 10px; border-radius: 4px; background: #ecfdf3; color: #15803d; font-size: 10px; font-weight: 700; }
+.detail-stock.out-of-stock { background: #fef2f2; color: #b91c1c; }
+.detail-copy { padding-top: 14px; }
+.detail-copy .eyebrow { color: #2563eb; }
+.detail-copy h1 { margin: 11px 0 7px; color: #102a43; font-size: clamp(32px, 4vw, 43px); letter-spacing: -.055em; }
+.detail-copy .detail-brand { margin: 0 0 16px; color: #64748b; font-size: 12px; }
+.detail-copy > p:not(.detail-brand) { color: #52657a; font-size: 13px; line-height: 1.8; }
+.detail-price { margin: 20px 0; }
+.detail-price strong { color: #102a43; font-size: 29px; letter-spacing: -.04em; }
+.product-specs { grid-template-columns: 1fr 1fr; gap: 0 16px; margin: 0 0 22px; border-top-color: #e2e8f0; }
+.product-specs > div { padding: 13px 10px 13px 0; border-bottom-color: #e2e8f0; }
+.product-specs dt { font-size: 10px; }
+.product-specs dd { color: #334155; font-size: 12px; }
+.detail-copy .button { min-height: 43px; border-radius: 5px; font-size: 11px; }
+.related-section { padding-top: 42px; border-top: 1px solid #e8edf4; }
+.related-section .eyebrow { color: #2563eb; }
+
+@media (max-width: 760px) {
+  .detail-layout { grid-template-columns: 1fr; gap: 26px; }
+  .detail-visual { min-height: 360px; }
+  .detail-visual img { height: 310px; }
+  .detail-copy { padding-top: 0; }
+}
+
+@media (max-width: 480px) {
+  .detail-section { padding-top: 25px; }
+  .detail-visual { min-height: 290px; padding: 18px; }
+  .detail-visual img { height: 250px; }
+}
