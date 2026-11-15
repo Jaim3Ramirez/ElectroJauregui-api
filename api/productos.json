@@ -1,0 +1,185 @@
+
+{
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "Lavadora Automatica AquaWash 18",
+      "descripcion": "Lavadora automatica de carga superior con diferentes ciclos de lavado y sistema de ahorro de agua.",
+      "imagen": "https://placehold.co/600x400/png?text=Lavadora+AquaWash+18",
+      "marca": "AquaWash",
+      "categoria": "Lavadoras",
+      "precio": 8499,
+      "capacidad": "18 kg",
+      "eficiencia": "A",
+      "disponibilidad": true
+    },
+    {
+      "id": 2,
+      "nombre": "Lavadora EcoClean 20",
+      "descripcion": "Lavadora de gran capacidad diseñada para optimizar el consumo de agua y energia.",
+      "imagen": "https://placehold.co/600x400/png?text=Lavadora+EcoClean+20",
+      "marca": "EcoClean",
+      "categoria": "Lavadoras",
+      "precio": 9999,
+      "capacidad": "20 kg",
+      "eficiencia": "A",
+      "disponibilidad": true
+    },
+    {
+      "id": 3,
+      "nombre": "Lavadora SmartWash 16",
+      "descripcion": "Lavadora automatica con panel digital y programas especializados para distintos tipos de ropa.",
+      "imagen": "https://placehold.co/600x400/png?text=Lavadora+SmartWash+16",
+      "marca": "SmartHome",
+      "categoria": "Lavadoras",
+      "precio": 7299,
+      "capacidad": "16 kg",
+      "eficiencia": "B",
+      "disponibilidad": true
+    },
+    {
+      "id": 4,
+      "nombre": "Lavadora TwinForce 12",
+      "descripcion": "Lavadora semiautomatica de doble tina que permite lavar y centrifugar de manera independiente.",
+      "imagen": "https://placehold.co/600x400/png?text=Lavadora+TwinForce+12",
+      "marca": "TwinForce",
+      "categoria": "Lavadoras",
+      "precio": 4299,
+      "capacidad": "12 kg",
+      "eficiencia": "B",
+      "disponibilidad": true
+    },
+    {
+      "id": 5,
+      "nombre": "Lavadora FrontLoad Pro",
+      "descripcion": "Lavadora de carga frontal con motor silencioso y ciclos de lavado especializados.",
+      "imagen": "https://placehold.co/600x400/png?text=Lavadora+FrontLoad+Pro",
+      "marca": "HomeTech",
+      "categoria": "Lavadoras",
+      "precio": 12499,
+      "capacidad": "19 kg",
+      "eficiencia": "A",
+      "disponibilidad": false
+    },
+    {
+      "id": 6,
+      "nombre": "Refrigerador FrostMax 14",
+      "descripcion": "Refrigerador de dos puertas con sistema de enfriamiento uniforme y amplio espacio interior.",
+      "imagen": "https://placehold.co/600x400/png?text=Refrigerador+FrostMax",
+      "marca": "FrostMax",
+      "categoria": "Refrigeradores",
+      "precio": 11999,
+      "capacidad": "14 pies cubicos",
+      "eficiencia": "A",
+      "disponibilidad": true
+    },
+    {
+      "id": 7,
+      "nombre": "Refrigerador Inverter Plus",
+      "descripcion": "Refrigerador con tecnologia inverter para mejorar la eficiencia energetica y conservar alimentos.",
+      "imagen": "https://placehold.co/600x400/png?text=Refrigerador+Inverter",
+      "marca": "SmartHome",
+      "categoria": "Refrigeradores",
+      "precio": 15999,
+      "capacidad": "18 pies cubicos",
+      "eficiencia": "A",
+      "disponibilidad": true
+    },
+    {
+      "id": 8,
+      "nombre": "Refrigerador CompactCool",
+      "descripcion": "Refrigerador compacto ideal para espacios pequeños, oficinas o departamentos.",
+      "imagen": "https://placehold.co/600x400/png?text=Refrigerador+CompactCool",
+      "marca": "CompactCool",
+      "categoria": "Refrigeradores",
+      "precio": 5699,
+      "capacidad": "7 pies cubicos",
+      "eficiencia": "B",
+      "disponibilidad": true
+    },
+    {
+      "id": 9,
+      "nombre": "Secadora DryMaster 18",
+      "descripcion": "Secadora electrica con diferentes niveles de temperatura y programas para el cuidado de la ropa.",
+      "imagen": "https://placehold.co/600x400/png?text=Secadora+DryMaster",
+      "marca": "DryMaster",
+      "categoria": "Secadoras",
+      "precio": 10499,
+      "capacidad": "18 kg",
+      "eficiencia": "B",
+      "disponibilidad": true
+    },
+    {
+      "id": 10,
+      "nombre": "Secadora EcoDry 16",
+      "descripcion": "Secadora de ropa con sensores de humedad para optimizar los tiempos de secado.",
+      "imagen": "https://placehold.co/600x400/png?text=Secadora+EcoDry",
+      "marca": "EcoClean",
+      "categoria": "Secadoras",
+      "precio": 8999,
+      "capacidad": "16 kg",
+      "eficiencia": "A",
+      "disponibilidad": false
+    },
+    {
+      "id": 11,
+      "nombre": "Microondas HeatWave 1.1",
+      "descripcion": "Microondas digital con diferentes niveles de potencia y funciones de descongelado.",
+      "imagen": "https://placehold.co/600x400/png?text=Microondas+HeatWave",
+      "marca": "HeatWave",
+      "categoria": "Microondas",
+      "precio": 2199,
+      "capacidad": "1.1 pies cubicos",
+      "eficiencia": "B",
+      "disponibilidad": true
+    },
+    {
+      "id": 12,
+      "nombre": "Microondas QuickChef 0.7",
+      "descripcion": "Microondas compacto con controles sencillos y programas automaticos de coccion.",
+      "imagen": "https://placehold.co/600x400/png?text=Microondas+QuickChef",
+      "marca": "QuickChef",
+      "categoria": "Microondas",
+      "precio": 1599,
+      "capacidad": "0.7 pies cubicos",
+      "eficiencia": "B",
+      "disponibilidad": true
+    },
+    {
+      "id": 13,
+      "nombre": "Centro de Lavado DuoMax",
+      "descripcion": "Equipo integrado de lavadora y secadora diseñado para aprovechar mejor los espacios.",
+      "imagen": "https://placehold.co/600x400/png?text=Centro+de+Lavado+DuoMax",
+      "marca": "HomeTech",
+      "categoria": "Centros de lavado",
+      "precio": 18999,
+      "capacidad": "20 kg",
+      "eficiencia": "A",
+      "disponibilidad": true
+    },
+    {
+      "id": 14,
+      "nombre": "Centro de Lavado SpacePro",
+      "descripcion": "Centro de lavado vertical con ciclos automaticos y funciones para el cuidado de diferentes prendas.",
+      "imagen": "https://placehold.co/600x400/png?text=Centro+de+Lavado+SpacePro",
+      "marca": "SmartHome",
+      "categoria": "Centros de lavado",
+      "precio": 22499,
+      "capacidad": "22 kg",
+      "eficiencia": "A",
+      "disponibilidad": true
+    },
+    {
+      "id": 15,
+      "nombre": "Lavadora SemiAuto PowerWash",
+      "descripcion": "Lavadora semiautomatica resistente, de manejo sencillo y adecuada para uso domestico.",
+      "imagen": "https://placehold.co/600x400/png?text=Lavadora+PowerWash",
+      "marca": "PowerWash",
+      "categoria": "Lavadoras",
+      "precio": 3799,
+      "capacidad": "10 kg",
+      "eficiencia": "B",
+      "disponibilidad": true
+    }
+  ]
+}
